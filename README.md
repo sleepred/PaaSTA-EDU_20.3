@@ -33,3 +33,19 @@ $ chmod +x ./bosh
 $ sudo mv ./bosh /usr/local/bin/bosh
 $ bosh -v
 ```
+### [dependency 설치]
+[Ubuntu 18.04]
+```
+$ sudo apt-get install -y build-essential zlibc zlib1g-dev ruby ruby-dev openssl libxslt1-dev libxml2-dev libssl-dev libreadline7 libreadline-dev libyaml-dev libsqlite3-dev sqlite3
+```
+
+[다운로드]
+```
+wget http://45.248.73.44/index.php/s/Qi2zGPnGNEjb4Ax/download.zip
+```
+
+### [Bosh 환경 설정]
+```
+cd ~/workspace/paasta-5.0/deployment/bosh-deployment
+chmod 755 *.sh
+```
